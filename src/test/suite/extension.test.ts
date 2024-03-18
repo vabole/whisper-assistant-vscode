@@ -11,7 +11,7 @@ import {
 } from '../../extension';
 
 // NOTE: Tests can only be run if a workspace is open, so we need to open a known workspace before running the tests
-const outputWorkspace = '/Users/martin/Documents/www';
+const outputWorkspace = '/Users/vabole/ah/test-workspace';
 
 suite('Extension Test Suite', () => {
   vscode.window.showInformationMessage('Start all tests.');
