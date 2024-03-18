@@ -1,13 +1,13 @@
 {
-  "name": "whisper-assistant",
-  "displayName": "Whisper Assistant",
+  "name": "whisper-assistant-mod",
+  "displayName": "Whisper Assistant Mod",
   "description": "Leveraging OpenAI's Whisper to transcribe your speech, enhancing your coding efficiency and experience.",
   "version": "1.0.0",
-  "publisher": "MartinOpenSky",
+  "publisher": "vabole",
   "icon": "images/whisper-assistant.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/martin-opensky/whisper-assistant-vscode.git"
+    "url": "https://github.com/vabole/whisper-assistant-vscode"
   },
   "engines": {
     "vscode": "^1.70.0"
@@ -28,11 +28,11 @@
       }
     ],
     "keybindings": [
-      {
-        "command": "whisperAssistant.toggleRecording",
-        "key": "ctrl+m",
-        "mac": "cmd+m"
-      }
+        {
+          "command": "whisperAssistant.toggleRecording",
+          "key": "shift+ctrl+,",
+          "mac": "shift+cmd+,"
+        }
     ],
     "configuration": {
       "type": "object",

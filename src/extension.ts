@@ -170,9 +170,8 @@ function updateStatusBarItem(): void {
     );
     const minutes = Math.floor(recordingDuration / 60);
     const seconds = recordingDuration % 60;
-    state.myStatusBarItem.text = `$(stop) ${minutes}:${
-      seconds < 10 ? '0' + seconds : seconds
-    }`;
+    state.myStatusBarItem.text = `$(stop) ${minutes}:${seconds < 10 ? '0' + seconds : seconds
+      }`;
   } else {
     state.myStatusBarItem.text = state.isTranscribing
       ? `$(loading~spin)`

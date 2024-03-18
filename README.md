@@ -71,9 +71,9 @@ Once initialization is complete, a quote icon will appear in the bottom right st
 
 To enhance your development experience with Cursor.so and Whisper Assistant, follow these simple steps:
 
-1.  Start the recording: Press `Command+M` (Mac) or `Control+M` (Windows).
+1.  Start the recording: Press `Shift+Command+,` (Mac) or `Shift+Control+,` (Windows).
 2.  Speak your instructions clearly.
-3.  Stop the recording: Press `Command+M` (Mac) or `Control+M` (Windows).
+3.  Stop the recording: Press `Shift+Command+,` (Mac) or `Shift+Control+` (Windows).
     _Note: This initiates the transcription process._
 4.  Open the Cursor dialog: Press `Command+K` or `Command+L`.
     _Important: Do this **before** the transcription completes._
