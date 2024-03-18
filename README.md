@@ -83,4 +83,5 @@ By integrating Cursor.so with Whisper Assistant, you can provide extensive instr
 
 # Disclaimer
 
-Please note that this extension has been primarily tested on Mac OS. While efforts have been made to ensure compatibility, its functionality on other platforms such as Windows or Linux cannot be fully guaranteed. I welcome and appreciate any pull requests to address potential issues encountered on these platforms.
+This extension is a fork of the original: https://github.com/martin-opensky/whisper-assistant-vscode
+I created it to play with whisper and vs code extensions a bit
