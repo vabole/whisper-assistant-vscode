@@ -2,7 +2,7 @@
   "name": "whisper-assistant-mod",
   "displayName": "Whisper Assistant Mod",
   "description": "Leveraging OpenAI's Whisper to transcribe your speech, enhancing your coding efficiency and experience.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "vabole",
   "icon": "images/whisper-assistant.png",
   "repository": {
