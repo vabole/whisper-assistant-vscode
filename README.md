@@ -71,15 +71,24 @@ Once initialization is complete, a quote icon will appear in the bottom right st
 
 To enhance your development experience with Cursor.so and Whisper Assistant, follow these simple steps:
 
-1.  Start the recording: Press `Shift+Command+,` (Mac) or `Shift+Control+,` (Windows).
+1.  Start the recording: Press `ctrl+u` (Mac) or `ctrl+u` (Windows).
 2.  Speak your instructions clearly.
-3.  Stop the recording: Press `Shift+Command+,` (Mac) or `Shift+Control+` (Windows).
+3.  Stop the recording: Press `ctrl+u` (Mac) or `ctrl+u` (Windows).
     _Note: This initiates the transcription process._
 4.  Open the Cursor dialog: Press `Command+K` or `Command+L`.
     _Important: Do this **before** the transcription completes._
 5.  The transcribed text will automatically populate the Cursor dialog. Here, you can edit the text or add files/docs, then press `Enter` to execute the GPT query.
 
 By integrating Cursor.so with Whisper Assistant, you can provide extensive instructions without the need for typing, significantly enhancing your development workflow.
+
+## Customizing the Keyboard Shortcut
+
+To customize the keyboard shortcut for toggling recording with Whisper Assistant, follow these steps:
+
+1. Open the Command Palette by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS).
+2. Type `Preferences: Open Keyboard Shortcuts (JSON)` and press Enter. This opens your `keybindings.json` file.
+3. Find the existing keybinding for `whisperAssistant.toggleRecording`. If it's not present, you can add a new entry. Here's the default setting you might see:
+
 
 # Disclaimer
 
