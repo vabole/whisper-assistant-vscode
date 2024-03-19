@@ -25,14 +25,18 @@
       {
         "command": "whisperAssistant.toggleRecording",
         "title": "Toggle Recording"
+      },
+      {
+        "command": "whisperAssistant.openKeybindings",
+        "title": "Open Keybindings for Customization"
       }
     ],
     "keybindings": [
-        {
-          "command": "whisperAssistant.toggleRecording",
-          "key": "shift+ctrl+,",
-          "mac": "shift+cmd+,"
-        }
+      {
+        "command": "whisperAssistant.toggleRecording",
+        "key": "ctrl+u",
+        "mac": "ctrl+u"
+      }
     ],
     "configuration": {
       "type": "object",
