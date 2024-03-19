@@ -72,6 +72,8 @@ export async function activate(context: vscode.ExtensionContext) {
       'Congratulations, your extension "Whisper Assistant" is now active!',
     );
   }
+
+  registerOpenKeybindingsCommand(context);
 }
 
 export function initializeStatusBarItem(): void {
@@ -223,7 +225,7 @@ async function finalizeProgress(
   state.recordingStartTime = undefined;
   updateStatusBarItem();
   // Delay the closing of the progress pop-up by 2.5 second to allow the user to see the completion message
-  await new Promise<void>((resolve) => setTimeout(resolve, 2500));
+  await new Promise<void>((resolve) => setTimeout(resolve, 250));
 }
 
 // This method is called when your extension is deactivated
@@ -260,4 +262,11 @@ function getWhisperModel(): WhisperModel {
 
 export function initializeOutputChannel(): void {
   state.outputChannel = vscode.window.createOutputChannel('Whisper Assistant');
+}
+export function registerOpenKeybindingsCommand(context: vscode.ExtensionContext): void {
+  let disposable = vscode.commands.registerCommand('whisperAssistant.openKeybindings', async () => {
+    await vscode.commands.executeCommand('workbench.action.openGlobalKeybindings');
+  });
+
+  context.subscriptions.push(disposable);
 }

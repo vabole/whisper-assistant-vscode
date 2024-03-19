@@ -2,7 +2,7 @@
   "name": "whisper-assistant-mod",
   "displayName": "Whisper Assistant Mod",
   "description": "Leveraging OpenAI's Whisper to transcribe your speech, enhancing your coding efficiency and experience.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "vabole",
   "icon": "images/whisper-assistant.png",
   "repository": {
@@ -25,14 +25,18 @@
       {
         "command": "whisperAssistant.toggleRecording",
         "title": "Toggle Recording"
+      },
+      {
+        "command": "whisperAssistant.openKeybindings",
+        "title": "Open Keybindings for Customization"
       }
     ],
     "keybindings": [
-        {
-          "command": "whisperAssistant.toggleRecording",
-          "key": "shift+ctrl+,",
-          "mac": "shift+cmd+,"
-        }
+      {
+        "command": "whisperAssistant.toggleRecording",
+        "key": "ctrl+u",
+        "mac": "ctrl+u"
+      }
     ],
     "configuration": {
       "type": "object",
